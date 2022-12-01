@@ -113,7 +113,7 @@ class Snipe(commands.Cog):  # create a class for our cog that inherits from comm
                         value=str(snipe_message_content5))
         # if you like to
         embed.set_footer(text="(this version of the bot is a preview/beta)")
-        await ctx.reply(embed=embed)
+        await ctx.respond(embed=embed)
 
 
 def setup(bot):  # this is called by Pycord to setup the cog
