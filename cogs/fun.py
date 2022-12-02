@@ -22,7 +22,7 @@ class Fun(commands.Cog):  # create a class for our cog that inherits from comman
 
     @discord.slash_command()
     async def ambo(self, ctx):
-        await ctx.reply("ambotukam!!!!!!! :drooling_face: :flushed:")
+        await ctx.respond("ambotukam!!!!!!! :drooling_face: :flushed:")
         await ctx.send(
             "https://cdn.discordapp.com/attachments/798374033674338364/1022434470428680202/ambotukamzzz.png?size=4096")
 

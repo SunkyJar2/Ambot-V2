@@ -1,8 +1,8 @@
 import os
 import discord
-import random
 import dotenv
 from dotenv import load_dotenv
+
 bot = discord.Bot()
 dotenv.load_dotenv()
 token = str(os.getenv("TOKEN"))
