@@ -11,7 +11,11 @@ cogs_list = [
     'fun',
     'snipe',
 ]
+bot.slash_command(description='help')
 
+
+async def dice(ctx):
+    ctx.respond('yout msther')
 for cog in cogs_list:
     bot.load_extension(f'cogs.{cog}')
 bot.run(token)
