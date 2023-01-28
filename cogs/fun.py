@@ -1,6 +1,7 @@
 import random
 import discord
 from discord.ext import commands
+from random import choice
 
 
 class Fun(commands.Cog):  # create a class for our cog that inherits from commands.Cog
