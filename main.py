@@ -5,7 +5,6 @@ from dotenv import load_dotenv
 import random
 from random import choice
 
-
 class MyView(discord.ui.View):  # Create a class called MyView that subclasses discord.ui.View
     # Create a button with the label "😎 Click me!" with color Blurple
     @discord.ui.button(label="Smash", style=discord.ButtonStyle.primary)
@@ -21,6 +20,7 @@ cogs_list = [
     'fun',
     'snipe',
     'lore',
+    'sci'
 ]
 bot.slash_command(description='help')
 
